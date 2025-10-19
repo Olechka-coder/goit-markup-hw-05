@@ -676,6 +676,21 @@ margin-bottom: 8px;
     border-color: #4D5AE5;
 }
 
+.input{
+    width: 100%;
+    height: 40px
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 4px;
+    background-color: transparent;
+    padding-left: 38px;
+    outline: transparent;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.input:focus{
+    border-color: #4D5AE5;
+}
+
 .icon-user{
     position: absolute;
     top: 50%;
@@ -688,9 +703,12 @@ margin-bottom: 8px;
     fill: #8e8f99; */
 }
 
+
 .modal-input:focus + .icon-user{
     fill: #4D5AE5;
 }  
+
+
 
 .comments{
     margin-bottom: 16px
