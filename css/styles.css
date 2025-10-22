@@ -623,8 +623,12 @@ transform: translateY(0%);
 .modal-cloth:focus{
 background-color: #404bbf;
     border: none;
-    fill: #ffffff
 }
+
+.modal-cloth:hover .icon-close,
+.modal-cloth:focus .icon-close{
+    fill: #ffffff;
+}       
 
 .icon-close{
     width: 8px;
