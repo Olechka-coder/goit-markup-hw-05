@@ -266,7 +266,7 @@ border: 1px solid #8e8f99;
     align-items: center;
     background: #f4f4fd;
     justify-content: center;
-    margin: 0 auto 32px;        
+    /* margin: 0 auto 32px;         */
 }
 
 .icon-container{
@@ -276,7 +276,7 @@ border: 1px solid #8e8f99;
     width: 100%;
     height: 112px;
     background: #f4f4fd;        
-    border: 1px solid #8e8f99;
+    /* border: 1px solid #8e8f99; */
     border-radius: 4px;
     align-items: center;
 
@@ -290,9 +290,9 @@ padding: 120px 0;
 background-color: #f4f4fd;
 }
 
-.second-section-container{ 
+/* .second-section-container{ 
 padding: 32px 0;
-}
+} */
 
 .second-title{
 margin-bottom: 72px;
@@ -333,9 +333,9 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     margin-bottom: 16px;
     }   
 
-    .imagin-container{
+    /* .imagin-container{
     padding: 32px 0;
-    }
+    } */
 
 /* .icon-container{
     display: flex;
@@ -359,9 +359,9 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     background-position: center;
     display: block;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    /* box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
             0px 1px 1px rgba(46, 47, 66, 0.16),
-            0px 2px 1px rgba(46, 47, 66, 0.08);
+            0px 2px 1px rgba(46, 47, 66, 0.08); */
     }
 
 
@@ -604,6 +604,7 @@ transform: translateY(0%);
     background-color: transparent;
 
     border-radius: 50%;
+    
 
     background-color: #e7e9fc;
     font-size: 16px;
@@ -625,12 +626,14 @@ background-color: #404bbf;
     border: none;
 }
 
+
+
 .modal-cloth:hover .icon-close,
 .modal-cloth:focus .icon-close{
     fill: #ffffff;
 }       
 
-.icon-close{
+.icon-close {
     width: 8px;
     height: 8px;
     fill: #2e2f42;
@@ -639,7 +642,7 @@ background-color: #404bbf;
 
 /* .icon-close:hover,
 .icon-close:focus{
-
+fill: #ffffff;
 } */
 
 .modal-title{
@@ -791,6 +794,7 @@ input.visually-hidden:checked+.checkbox-label .checkbox-link{
 }
 
 .modal-button{
+    border-radius: 4px;
     display: block;
     min-width: 169px;
     height: 56px;
@@ -809,6 +813,7 @@ input.visually-hidden:checked+.checkbox-label .checkbox-link{
 
 .text-link{
     color: #4d5ae5;
+    text-decoration: underline;
 }
 
 .footer-title{
