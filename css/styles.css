@@ -570,7 +570,7 @@ transform: translateY(0%);
 
 .footer-svg {
     margin-left: 16px;
-    color: #ffffff;
+    fill: #ffffff;
 }
 
 /* modal */
