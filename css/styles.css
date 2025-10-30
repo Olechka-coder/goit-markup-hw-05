@@ -188,7 +188,6 @@ background-image: linear-gradient(
 rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)
 ),
 url("../images/people-office.jpg");
-/* max-width: 1200px; */
 margin: 0 auto;
 background-repeat: no-repeat;
 background-size: cover;
@@ -266,7 +265,6 @@ border: 1px solid #8e8f99;
     align-items: center;
     background: #f4f4fd;
     justify-content: center;
-    /* margin: 0 auto 32px;         */
 }
 
 .icon-container{
@@ -275,12 +273,9 @@ border: 1px solid #8e8f99;
     margin-bottom: 8px;
     width: 100%;
     height: 112px;
-    background: #f4f4fd;        
-    /* border: 1px solid #8e8f99; */
     border-radius: 4px;
     align-items: center;
-
-    }
+}
 
 
 /* second-section */
@@ -289,10 +284,6 @@ border: 1px solid #8e8f99;
 padding: 120px 0;
 background-color: #f4f4fd;
 }
-
-/* .second-section-container{ 
-padding: 32px 0;
-} */
 
 .second-title{
 margin-bottom: 72px;
@@ -333,23 +324,7 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     margin-bottom: 16px;
     }   
 
-    /* .imagin-container{
-    padding: 32px 0;
-    } */
-
-/* .icon-container{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 8px;
-    width: 100%;
-    height: 112px;
-    background: #f4f4fd;        
-    border: 1px solid #8e8f99;
-    border-radius: 4px;
-    align-items: center;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    } */
-
+   
 .stars-item{
     width: 40px;
     height: 40px;
@@ -359,9 +334,7 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     background-position: center;
     display: block;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    /* box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-            0px 1px 1px rgba(46, 47, 66, 0.16),
-            0px 2px 1px rgba(46, 47, 66, 0.08); */
+    
     }
 
 
@@ -433,17 +406,9 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
  .thumb{
-    position: absolute;
-    width: 100%;    
-    height: 0;
-    transform: translateY(0%); ;
-    border-radius: 4px 4px 0px 0px;
-    overflow: hidden;
-    margin-bottom: -1px;
-    border: 1px solid #e7e9fc;
-    border-bottom: none;
-    position: relative;
-    }
+   position: relative;
+   overflow: hidden;
+}
 
 .paragraf-over{
     transform: translateY(100%);
@@ -545,6 +510,70 @@ transform: translateY(0%);
 .icon{
     fill: #f4f4fd;
 }
+
+.footer-icon-container{
+    
+    height: 40px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 80px; 
+   
+}
+
+.footer-title {
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+
+.form-foot {
+    display: flex;
+    gap: 24px;
+}
+
+
+.footer-input {
+    width: 264px;
+    height: 40px;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    color: #ffffff;
+}
+
+.footer-button {
+    min-width: 165px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #4D5AE5;
+    border: none;
+    border-radius: 4px;
+}
+
+.footer-svg {
+    margin-left: 16px;
+    color: #ffffff;
+}
+
+/* modal */
 
 .backdrop{
     position: fixed;
@@ -794,6 +823,7 @@ input.visually-hidden:checked+.checkbox-label .checkbox-link{
 }
 
 .modal-button{
+    margin-left: 104px;
     border-radius: 4px;
     display: block;
     min-width: 169px;
@@ -814,55 +844,4 @@ input.visually-hidden:checked+.checkbox-label .checkbox-link{
 .text-link{
     color: #4d5ae5;
     text-decoration: underline;
-}
-
-.footer-title{
-    margin-bottom: 16px;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #ffffff;
-}
-
-.form-foot{
-    display: flex;
-    gap: 24px;
-}
-
-
-.footer-input{
-    width: 264px;
-    height: 40px;
-    border: 1px solid #ffffff;
-    background-color: transparent;
-    font-size: 12px;
-    line-height: 2;
-    letter-spacing: 0.04em;
-    padding-left: 16px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    color: #ffffff;
- }
-
-.footer-button{
-    min-width: 165px;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #ffffff;
-    cursor: pointer;
-    background-color: #4D5AE5;
-    border: none;
-    border-radius: 4px;
-}
-
-.footer-svg{
-    margin-left: 16px;
 }
